@@ -1,0 +1,167 @@
+ul{
+	text-align: left;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body{
+	background-color: white;
+	background-image: url("../Slike/prozor.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding:10px;
+    padding-bottom:60px
+}
+h2{
+	margin-left: 11%;
+	margin-top: -18px;
+	font-style: oblique;
+	font-size: 40px;
+	font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	text-shadow: 0px 0px 3px gold, 0px 0px 3px gold;
+}
+
+
+
+.menu{
+	 overflow: hidden;
+    background-color: transparent;
+
+}
+.menu button{
+	/*size: 20px;*/
+	border:1px ;
+	overflow: hidden;
+	float: left;
+    padding: 20px 81px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: inherit;
+	color: black;
+	font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	text-shadow: 0px 0px 3px gold, 0px 0px 3px gold;
+}
+
+.menu button:hover {
+    background-color: transparent;
+    text-shadow: 0px 0px 3px gold, 0px 0px 3px red;
+}
+.menu button.active {
+    background-color: transparent;
+}
+
+#naslov{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 80px;
+	color: red;
+	color: black;
+	font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 70px;
+	text-shadow: 0px 0px 3px gold, 0px 0px 3px gold;
+}
+
+.izlog{
+	margin-left: 60px;
+	float: left;
+	padding-right: 60px;
+}
+.izlog2{
+	border: 2px solid transparent;
+	padding-right: 60px;
+	float: left;
+
+}
+.izlog3{
+	padding-right: 60px;
+	float: left;
+
+	float: left;
+
+}
+.tekst{
+	font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	color: black;
+	padding-left:100px;
+	text-shadow: 0px 0px 3px gold, 0px 0px 3px gold;
+}
+.ofirmi{
+	font-family: "Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	color: black;
+	font-size: 25px;
+	text-align: left;
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+
+#onama_tekst{
+	font-weight: bold;
+	right: 70px;
+	text-decoration: ;
+	color: black;
+	text-shadow: 0px 0px 3px gold, 0px 0px 3px gold;
+	font-size: 40px;
+	margin: 0;
+
+}
+
+.footer1{
+	box-sizing: border-box;
+	position: relative;
+	width: 50%;
+	bottom: 0;
+	text-align: left;
+	padding-top: 40px;
+	font-size: 20px;
+	font-family: "Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	display: inline-block;
+	float: left;
+	padding-left: 50px;
+
+}
+.footer1 p,ul{
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.footer2{
+	box-sizing: border-box;
+	position: relative;
+	width: 50%;
+	bottom: 0;
+	text-align: left;
+	font-size: 20px;
+	font-family: "Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	float: left;
+	right: 40%;
+	padding-top: 40px;
+	padding-left: 60px;
+}
+.footer2 p{
+	margin: 0;
+	padding: 0;
+}
+#Omerov{
+	bottom: 0;
+	font-size: 18px;
+	text-align: center;
+	font-family: "Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	text-shadow: 0px 0px 3px gold, 0px 0px 3px gold;
+	margin-right: 70px;
+	font-weight: bolder;
+}
+hr{
+	border: 2px solid black;
+
+}

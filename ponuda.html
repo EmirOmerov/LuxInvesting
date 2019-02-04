@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Lux Investing</title>
+	<meta charset="utf-8">
+	<meta name="description" content="HTML5 example">
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="CSS\ponuda_dizajn.css">
+	<script src="ponuda.js"></script>
+</head>
+<body>
+
+	<div class="menu">
+		<a href="luxinvesting.html"><button style="font-size:30px;">Naslovna</button></a>
+		<a href="galerija.html"><button style="font-size:30px;">Galerija</button></a>
+		<a href="ponuda.html"><button style="font-size:30px;">Ponuda</button></a>
+		<button class="tablinks-xxlarge" style="font-size: 30px;">Montaža i Servis</button>
+		<a href="info.html"><button style="font-size:30px;">Info</button></a>
+	</div>
+
+
+	<div class="okvir">
+		<p id="disec"><img id="x" src="ant2.png"width=300px; height=300px;></p>
+	</div>
+	<div class="disPonuda">
+		<p id='dp'>Ponuda:</p>
+		<p id="displeyponuda" class="form-control">- Firatpen<br />- Salamander Brugman<br />- Salamander BluEvolution White<br />- Salamander BluEvolution Antracit<br />- Salamander BluEvolution Hrast<br />
+		</p>
+	</div>
+
+
+	<div class="optionPVC">
+		<h1 id="chProfile">Izaberite profil:</h1>
+	  <select id="slctPvc" onclick="PickProfile()">
+			<option name="0">...</option>
+      <option name="FiratPen">Firatpen</option>
+      <option name="SBrug">Salamander Brugman</option>
+      <option name="SBlA">Salmander BluEvolution Antracit</option>
+      <option name="SBlO">Salamander BluEvolution Oak</option>
+   </select>
+	</div>
+
+	<div class="Brugman">
+		<form id ="calcPvc1">
+			<label for="width">Unesite sirinu(cm):</label>
+			<input type="text" id="calcWidth" />
+		</form>
+
+		<form id="calcPvc2">
+			<label for="height">Unesite visinu(cm):</label>
+			<input type="text" id="calcHeight" />
+			<input type="button" onclick="PvcCalculation(); specs();" id="ponudaButton" value="Izracunaj" />
+		</form>
+
+		<form action="" id="Montaza">
+			<input type="checkbox" name="dodatak" value="montage">Montaža<br />
+			<input type="checkbox" name="dodatak" value="delivery">Dostava<br />
+		</form>
+	</div>
+
+
+  <p id="ponuda2">Ponuda:</p>
+	<div class="roletne">
+		<p id="Alunaslov">Alu-roletne:</p>
+		<p id="aluprikaz">-Alu. roletne(vanjske)<br />-Alu. roletne(unutrasnje)<br />-raznih boja</p>
+		<form id ="calcAlu">
+			<label for="width">Unesite sirinu(cm):</label>
+			<input type="text" id="AluWidth" />
+		</form>
+
+		<form id="calcAlu2">
+			<label for="height">Unesite visinu(cm):</label>
+			<input type="text" id="AluHeight" />
+			<input type="button" onclick="Aluroletne();" id="ponudaButton2" value="Izracunaj" />
+		</form>
+	</div>
+
+
+
+</body>
+</html>

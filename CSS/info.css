@@ -1,0 +1,66 @@
+.menu{
+	 overflow: hidden;
+    background-color: transparent;
+
+}
+.menu button{
+	/*size: 20px;*/
+	border:1px ;
+	overflow: hidden;
+	float: left;
+    padding: 20px 81px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: inherit;
+	color: black;
+	font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.menu button:hover {
+    background-color: transparent;
+    text-shadow: 0px 0px 3px gold, 0px 0px 3px gold;
+}
+.menu button.active {
+    background-color: transparent;
+}
+
+ul{
+	text-align: left;
+}
+
+body, html {
+    height: 100%;
+}
+body{
+	background-color: white;
+	background-image: url("../Slike/prozor.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#fbstranica{
+	position: relative;
+    text-align: left;
+    color: black;
+    font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 30px;
+}
+#info_tekst{
+	color: black;
+	font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 30px;
+
+}
+.info {
+	color: black
+    top: 7px;
+    left: 32%;
+    font-size: 20px;
+    font-family:"Trebuchet MS", "Lucida Sans", Tahoma, sans-serif;
+
+}
