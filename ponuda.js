@@ -134,7 +134,7 @@ var blueESpec =`<br>BluEvolution je sistem profila Salamander sa sest komora, tr
 
 
 function changeImage(image){
-  document.getElementById("x").src=image;
+  return document.getElementById("x").src=image;
 
 }
 
